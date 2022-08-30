@@ -1,9 +1,23 @@
 /*style.css*/
 
-.recipe-title{
+.title{
 	font-family: Verdana, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: x-large;
-	color: #801a00;
 	text-align: center;
+}
+
+a:any-link {
+	color: #801a00;
+	font-size: large;
+}
+
+a:hover{
+	color: #b32400;
+	font-size: x-large;
+}
+
+a:active{
+	color: #ff3300;
+	font-size: x-large;
 }
