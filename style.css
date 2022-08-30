@@ -1,6 +1,7 @@
 /*style.css*/
 
 body {
+	font-family: Verdana, Helvetica, sans-serif;
 	background: linear-gradient(-45deg, #e7d2cc, #b9b7bd, #868b8e, #eeede7);
 	background-size: 400% 400%;
 	animation: gradient 150s ease infinite;
@@ -20,7 +21,6 @@ body {
 }
 
 .title{
-	font-family: Verdana, Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
 }
@@ -39,4 +39,12 @@ a:hover{
 a:active{
 	color: #ff3300;
 	font-size: x-large;
+}
+
+h2{
+	color: #8b0921
+}
+
+li{
+	color: #04493c
 }
